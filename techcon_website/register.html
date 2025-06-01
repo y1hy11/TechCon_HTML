@@ -8,5 +8,22 @@
     <header>
       <h1>Register for TechCon 2024</h1>
     </header>
+        <main>
+      <form action="/submit-registration" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <input type="checkbox" id="terms" name="terms" required />
+        <label for="terms">I agree to the terms and conditions</label>
+
+        <button type="submit">Register</button>
+      </form>
+    </main>
   </body>
 </html>
